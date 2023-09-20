@@ -1,0 +1,56 @@
+.converter {
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 45rem;
+    position: relative;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-swap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    width: 2em;
+    height: 2em;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.rate-summary,
+.loader-container,
+.error-message {
+    padding-top: 1rem;
+}
+
+.loader-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-close {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    z-index: 1;
+}
+
+@media (min-width: calc(40em + 1px)) {
+    .input-box {
+        flex-direction: row;
+    }
+
+    .btn-swap {
+        align-self: flex-end;
+    }
+}
