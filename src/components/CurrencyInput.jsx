@@ -35,8 +35,6 @@ function CurrencyInput({
 }
 
 export default CurrencyInput;
-import Select from "./Select";
-import styles from "./CurrencyInput.module.css";
 
 function CurrencyInput({
   symbols,
@@ -71,4 +69,3 @@ function CurrencyInput({
   );
 }
 
-export default CurrencyInput;
