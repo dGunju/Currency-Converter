@@ -2,7 +2,7 @@
 
 ## A currency converter with multi-converter/exchange rate support on a single page.
 
-Web App: https://650b1c27752dff0cd9bc06a2--adorable-swan-284403.netlify.app/
+Web App: [Currency-Converter](https://650b1c27752dff0cd9bc06a2--adorable-swan-284403.netlify.app/)
 
 This is a web application written in React allowing user to get exchange rates and convert currencies based on user's input amount, along with the functionality to add multiple converters to the same page to make the conversion more convenient instead of switching between multiple tabs.
 
@@ -32,11 +32,13 @@ git clone https://github.com/Ad3b1y1/Currency-Converter.git
 ```
 
 Create A Vite Project
+
 ```BASH
 npx create-vite Currency-Converter --template react
-``
+```
 
 Navigate the project directory
+
 
 ```BASH
 cd Currency-Converter
@@ -61,4 +63,5 @@ npm run dev
 ## Authors
 
 Jonathan Adegunju (jonathanadegunju@gmail.com)
+
 Opeoluwa Adeyemi (opeoluwaadebiyi@outlook.com)
